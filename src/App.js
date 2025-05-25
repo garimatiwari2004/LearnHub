@@ -7,12 +7,14 @@ import Login from './pages/auth/login/login';
 import Signup from './pages/auth/signup/signup';
 import About from './pages/about/about';
 import Contact from './pages/contact/contact';
+import Navbar from './component/home/navbar';
 
 import { BrowserRouter,Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
 <BrowserRouter>
+    <Navbar />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/courses" element={<Courses />} />   
