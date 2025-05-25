@@ -1,0 +1,42 @@
+.image-container{
+    width: 100%;
+    overflow: hidden;
+   object-fit: contain;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   padding: 5px;
+   z-index: -1;
+  
+   
+}
+.image-container img {
+  width: 80%;
+  border-radius: 5px;
+  border: 1px solid #9bf6ff;
+  position: relative;
+  
+  
+
+}
+.icon{
+    border-radius: 50%;
+    background-color: #6930c3;
+    width: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.image-text{
+    position: absolute;
+    right: 10px;
+   display: flex;
+   padding: 5px;
+    
+    z-index: 1;
+    border: 1px solid blue;
+    background-color: white;
+    
+
+}
