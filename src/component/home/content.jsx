@@ -1,4 +1,5 @@
 import './content.css';
+import { Link } from 'react-router-dom';
 export default function Content() {
     return (
         <div className="content">
@@ -9,8 +10,12 @@ export default function Content() {
             <p>master new skills with interactive courses, expert</p>
             <p>instructors, and a personalized learning experience.</p>
             <div className="buttons">
-                <button className="btn1" >Get Started</button>
+                <Link to="/signup" >
+                <button className="btn1" type='submit'  >Get Started</button>
+                </Link>
+                <Link to="/courses">
                 <button className="btn2">Browse More</button>
+                </Link>
             </div>
         </div>
     );

@@ -1,0 +1,47 @@
+.ready{
+    background-color: #7400b8;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.ready h1{
+    color: white;
+}
+.btnforready{
+    margin: 5px;
+    padding: 15px;
+    display: flex;
+    gap: 25px;
+}
+.ready-button{
+    background-color: white;
+    color: #7400b8;
+    padding: 5px;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+.browse-button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+}
+.ready-button:hover{
+    background-color: rgb(202, 206, 209);
+    box-shadow: 2px 2px 2px black;
+}
+.browse-button:hover{
+    background-color: #7400b8;
+    color: white;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px black;
+}

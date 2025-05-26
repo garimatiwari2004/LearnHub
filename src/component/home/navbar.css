@@ -3,23 +3,41 @@
 .navbar{
     background-color:black;
     color: white;
-    padding: 7px 47px;
+    width: 100%;
+   
+ 
+   
 }
 
 .navbar-container{
     display: flex;
-    justify-content: space-between;
-    gap: 55px;
+    justify-content: space-around;
+    width: 100%;
+    gap: 10px;
     align-items: center;
-    border: 1px solid black;
-    padding: 5px;
+  
+    padding: 0 20px;
+  
+    
+    position: fixed;
+    z-index: 1000;
    
    
+    height: 60px;
+    background-color: black;
+   
+}
+.logo{
+
+    
 }
 .nav-links{
     display: flex;
-    gap: 400px;
-    justify-content: space-between;
+ 
+   
+   
+    justify-content: center;
+    gap: 4em;
     
   
 }
@@ -41,7 +59,8 @@ li{
 .extras{
     display: flex;
     gap: 50px;
-    justify-content: center;
+   
+   
   
 }
 .auth-links{
@@ -49,43 +68,67 @@ li{
     gap: 20px;
     justify-content: center;
   
+    
+    
+    
+  
 }
 .nav-link.active {
   font-weight: bold;
   
-  border-bottom: 2px solid #007bff; /* underline effect */
+  border-bottom: 2px solid #007bff; 
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .navbar-container{
-        flex-direction: column;
-        align-items: center;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      height: auto;
+       
      
 
     }
   .nav-links {
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-    gap: 1rem;
+    display: none;
+    
   }
-
+ 
   .extras {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
-    padding: 0;
+    
+    display: none;
    
-    align-items: flex-start;
+ 
   }
   .auth-links {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-   
     
-    align-items: flex-start;
+    
+  }
+  
+}
+@media (max-width: 768px) {
+    .navbar-container{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      height: auto;
+       
+     
+
+    }
+  .nav-links {
+    display: none;
+    
+  }
+ 
+  .extras {
+    
+    display: none;
+   
+ 
+  }
+  .auth-links {
+    
+    
   }
   
 }   
