@@ -27,10 +27,7 @@
     background-color: black;
    
 }
-.logo{
 
-    
-}
 .nav-links{
     display: flex;
  
@@ -99,10 +96,7 @@ li{
    
  
   }
-  .auth-links {
-    
-    
-  }
+  
   
 }
 @media (max-width: 768px) {
@@ -126,10 +120,7 @@ li{
    
  
   }
-  .auth-links {
-    
-    
-  }
+  
   
 }   
    
